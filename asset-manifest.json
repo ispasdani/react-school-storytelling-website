@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/react-school-storytelling-website/static/css/main.9e664b90.css",
+    "main.js": "/react-school-storytelling-website/static/js/main.10caa7dc.js",
+    "static/media/beerDoors.mp4": "/react-school-storytelling-website/static/media/beerDoors.feb8656dff033f250a9c.mp4",
+    "static/media/teaser.mp4": "/react-school-storytelling-website/static/media/teaser.26f1ad59acdbe282450f.mp4",
+    "static/media/homeStudy.mp4": "/react-school-storytelling-website/static/media/homeStudy.93fb456b0735bc646476.mp4",
+    "static/media/school.mp4": "/react-school-storytelling-website/static/media/school.63cb934133177720ba37.mp4",
+    "static/media/partying.mp4": "/react-school-storytelling-website/static/media/partying.46797946163755582331.mp4",
+    "static/media/coffeeshop.mp4": "/react-school-storytelling-website/static/media/coffeeshop.de581d9fbeabc8b57ab9.mp4",
+    "static/media/dddd.png": "/react-school-storytelling-website/static/media/dddd.9fff23ea814f220792c8.png",
+    "static/media/groceryStore.jpg": "/react-school-storytelling-website/static/media/groceryStore.f0c786888d059b16988e.jpg",
+    "static/media/cookingBurger.jpg": "/react-school-storytelling-website/static/media/cookingBurger.73fb1a08721fcc03a739.jpg",
+    "static/media/loader1.jpg": "/react-school-storytelling-website/static/media/loader1.2674d1b1e246dc9d22df.jpg",
+    "static/media/eatingTogether.jpg": "/react-school-storytelling-website/static/media/eatingTogether.2ff12a1b0a1a32098e32.jpg",
+    "static/media/partyingBla.jpg": "/react-school-storytelling-website/static/media/partyingBla.bfa492e8b5afd050a103.jpg",
+    "static/media/loader4.jpg": "/react-school-storytelling-website/static/media/loader4.43b866f0a572d24856da.jpg",
+    "static/media/eatingUnknown.jpg": "/react-school-storytelling-website/static/media/eatingUnknown.69898bc23df6e9574846.jpg",
+    "static/media/pol2.jpg": "/react-school-storytelling-website/static/media/pol2.33bb3b28606e5abdc872.jpg",
+    "static/media/loader2.jpg": "/react-school-storytelling-website/static/media/loader2.65e5593c7435f4fc2839.jpg",
+    "static/media/loader3.jpg": "/react-school-storytelling-website/static/media/loader3.42a28c56eb7bc1b098ed.jpg",
+    "static/media/pol3.jpg": "/react-school-storytelling-website/static/media/pol3.1efc1492cfb2cbcc982f.jpg",
+    "static/media/groceryBag.jpg": "/react-school-storytelling-website/static/media/groceryBag.760426b79410f062dc3b.jpg",
+    "static/media/pol6.jpg": "/react-school-storytelling-website/static/media/pol6.6d4b6a324f7a34689ef5.jpg",
+    "static/media/pol1.jpg": "/react-school-storytelling-website/static/media/pol1.ebd88acc913c424dd19a.jpg",
+    "static/media/pol4.jpg": "/react-school-storytelling-website/static/media/pol4.45480677eb69ded52e16.jpg",
+    "static/media/loader5.jpg": "/react-school-storytelling-website/static/media/loader5.d26b92398288157f3a42.jpg",
+    "static/media/cookingHand.jpg": "/react-school-storytelling-website/static/media/cookingHand.1936c926f4819c2c82c8.jpg",
+    "static/media/studyOneSvg.svg": "/react-school-storytelling-website/static/media/studyOneSvg.e10ede9514ef61228265b6dcb03c564f.svg",
+    "static/media/pol5.jpg": "/react-school-storytelling-website/static/media/pol5.44ddcfb8803daef23242.jpg",
+    "static/media/pol7.jpg": "/react-school-storytelling-website/static/media/pol7.62f1e38091a2a7b0ae13.jpg",
+    "static/media/studyAcademy.svg": "/react-school-storytelling-website/static/media/studyAcademy.5747c7b029e8a48b08db2df98fe7d9e3.svg",
+    "index.html": "/react-school-storytelling-website/index.html",
+    "main.9e664b90.css.map": "/react-school-storytelling-website/static/css/main.9e664b90.css.map",
+    "main.10caa7dc.js.map": "/react-school-storytelling-website/static/js/main.10caa7dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e664b90.css",
+    "static/js/main.10caa7dc.js"
+  ]
+}
