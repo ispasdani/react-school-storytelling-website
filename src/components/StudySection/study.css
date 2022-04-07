@@ -1,0 +1,117 @@
+section {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+  overflow: hidden;
+  background-color: #e1e5ee;
+}
+.study-places-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-study {
+  height: 18vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title-study h1 {
+  font-size: 6rem;
+  margin-left: 2rem;
+  color: white;
+}
+
+.title-study h1 span {
+  color: #366090;
+}
+
+/*////////////////////////////////////////////////////////*/
+.home-study-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-study-text {
+  height: 70vh;
+  width: 40%;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-study-text h1 {
+  text-align: center;
+  color: #366090;
+}
+
+.home-study-text p {
+  margin: 20px 20px;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  text-align: center;
+  color: black;
+}
+
+.home-study-text p span {
+  color: #366090;
+}
+
+.home-study-video-container {
+  height: 82vh;
+  width: 60%;
+}
+
+.home-study-video {
+  width: 100%;
+  height: 100%;
+}
+
+.study-icon {
+  width: 200px;
+  height: 150px;
+  margin-left: 40px;
+}
+
+
+/*/ ////////////////body navigation/////////////*/
+.body-navigation {
+  display: flex;
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.btn-body-nav p {
+  font-weight: bold;
+  color: inherit;
+  cursor: pointer;
+}
+
+.not-selected {
+  color: #80b5c0;
+}
+
+.btn-body-nav p a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.selected-section {
+  border-bottom: 1px solid #366090;
+  color: #366090;
+}

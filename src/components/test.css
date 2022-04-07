@@ -1,0 +1,6 @@
+.test {
+  background-color: yellowgreen;
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+}

@@ -1,0 +1,135 @@
+.bubble-message {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  z-index: 5;
+  margin: 10px 10px;
+}
+.loading-dots {
+  /* background-image: linear-gradient(to right, #00c6ff, #0072ff); */
+  background-color: #80b5c0;
+  width: 80px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.dot-elastic {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: white;
+  animation: dotElastic 1s infinite linear;
+}
+
+.dot-elastic::before,
+.dot-elastic::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-elastic::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: white;
+  animation: dotElasticBefore 1s infinite linear;
+}
+
+.dot-elastic::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: white;
+  animation: dotElasticAfter 1s infinite linear;
+}
+
+@keyframes dotElasticBefore {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1.5);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElastic {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 1.5);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElasticAfter {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.show-message {
+  /* background-image: linear-gradient(to right, #00c6ff, #0072ff); */
+  background-color: #80b5c0;
+  min-width: 250px;
+  max-width: 400px;
+  min-height: 50px;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+}
+
+.show-message p {
+  text-align: center;
+}

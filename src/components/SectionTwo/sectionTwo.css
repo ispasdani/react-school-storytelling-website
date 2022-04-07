@@ -1,0 +1,168 @@
+.section-main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  scroll-snap-align: start;
+  position: relative;
+  background-color: #e1e5ee;
+}
+
+.main-how-title {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 6rem;
+  z-index: 1000;
+  color: white;
+}
+
+.main-how-title span {
+  color: #80b5c0;
+}
+
+.images-container {
+  width: 60%;
+  height: 100vh;
+  position: relative;
+}
+
+.polaroid-frame {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.6);
+}
+
+.first-frame {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+
+.second-frame {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+.third-frame {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+
+.fourth-frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.fifth-frame {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.sixth-frame {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  transform: rotate(-6deg);
+}
+
+.seventh-frame {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: rotate(20deg);
+}
+
+.polaroid-frame h4 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.image-content {
+  width: 220px;
+  height: 220px;
+}
+.img-in-frame {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*//////////////////////////*/
+.messages-container {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bubble-chat-container {
+  width: 100%;
+  height: 75vh;
+  margin-bottom: 2rem;
+}
+.messages {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-message {
+  align-self: flex-start;
+  margin-left: 5px;
+}
+
+.second-message {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.third-message {
+  align-self: flex-start;
+  margin-left: 5px;
+}
+
+.fourth-message {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.fifth-message {
+  align-self: flex-start;
+  margin-left: 5px;
+}
+
+.sixth-message {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.seventh-message {
+  align-self: flex-start;
+  margin-left: 5px;
+}
+
+.eight-message {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.nine-message {
+  align-self: flex-start;
+  margin-left: 5px;
+}
